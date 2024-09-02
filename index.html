@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfolio</title>
+    <link rel="stylesheet" href="/css/portfolio.css">
+</head>
+<body>
+<script src="menu.js" defer>
+
+    let rcdMenu = document.getElementById('rcd-menu')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
+
+rcdMenu.addEventListener('click', ()=>{
+    menu.classList.add('abrir-menu')
+})
+
+menu.addEventListener('click', ()=>{
+    menu.classList.remove('abrir-menu')
+})
+
+overlay.addEventListener('click', ()=>{
+    menu.classList.remove('abrir-menu')
+})
+
+   </script>
+  <title>Agência</title>
+</head>
+
+<body>
+  <header>
+    <div class="interface">
+      <div class="logo">
+        <h2 class="inicio">Óla</h2>
+      </div><!--logo-->
+
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="rcd-abrir-menu" id="rcd-menu">
+        <i class="bi bi-list"></i>
+      </div>
+
+        </div><!--rcd-Fechar-->
+      </div>
+  </header>
+
+  <main>
+    <section class="topo-do-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1>Desenvolvimento web com foco em excelência e inovação<span>.</span></h1>
+            <P> <span>Cofira um pouco do meu trabalho</span></P>
+
+            <div class="rcd-contato">
+              <a href="#contato">
+                <button>Entre em Contato</button>
+              </a>
+            </div>
+          </div><!--txt-topo-site-->
+
+          <div class="img-topo-site">
+            <img
+              src="/imagens/WhatsApp Image 2024-09-02 at 15.59.23.jpeg"
+              width="500px" height="300px" alt="">
+          </div><!--img-topo-site-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--topo-do-site section-->
+
+    <section class="especialidades">
+      <div class="interface">
+        <h2 class="titulo">MEU <span>PORTÓLIO.</span></h2>
+        <div class="flex">
+          <div class="especialidades-box">
+            <h3><a href="#projetos">PROJETOS</a></h3>
+            <p>ALGUNS DOS MEUS PROJETOS PRONTO</p>
+          </div><!--especialidades-box-->
+
+          <div class="especialidades-box">
+            <h3>IDEIAS</h3>
+            <p>IDEIAS E DESENVOLVIMENTOS</p>
+
+          </div><!--especialidades-box-->
+          <div class="especialidades-box">
+           
+            <h3><a href="https://www.instagram.com/richard_semoo/">INSTAGRAM</a></h3>
+            <p>UM POUCO SOBRE MIM</p>
+          </div><!--especialidades-box-->
+
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--especialidades-->
+
+    <section id="sobre" class="sobre">
+      <div class="interface">
+        <div class="flex">
+          <div class="img-sobre">
+            <img
+              src="https://scontent.fcgh16-1.fna.fbcdn.net/v/t39.30808-6/371074335_3568401326729076_4087901625831744656_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGOjAB_tmWo9OkEWgBhlOBo2ZempTXk1jjZl6alNeTWOGeE_5cEt_4FwCsNuF0pnElk9qAPcVWqjCK1i8-wyp2M&_nc_ohc=_eevUM51WIUAb6g128k&_nc_ht=scontent.fcgh16-1.fna&oh=00_AfDnOafLspEkrrfwzuw-EVC2d9enFbbYXAFfmjiPAO_Dxg&oe=662799D3"
+              width="400px" alt="">
+          </div><!--img-sobre-->
+
+          <div id="sobre" class="txt-sobre">
+            <h2>MUITO PRAZER, <span>SOU RICHARD SEMO.</span></h2>
+            <p >Irei compartilha um pouco sobre mim, atualmente estudo na Uninter EAD faço ADS - Análise e desenvolvimento de sistemas onde estou tento bastante conhecimento na area da programação e estou muito satisfeito com 
+                a qualidade de ensino e o meu progresso</p>
+             <p>Tambem estudo na Fatec São roque - Centro paulo Souza presencial, faço sistemas para internet, está sendo um desafio Entanto,
+                pretendo ampliar meu conhecimento na area de T.I e evoluir cada vez mais no objetivo de ser um grande profissional na area.
+                tambem faço alguns curso por fora na Udemy Academy e no FreeCodeCamp
+            </p>
+            <p>Irei estar monstrando alguns dos meus projetos abaixo</p>
+          </div><!--txt-sobre-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--Sobre-->
+
+    <section id="projetos" class="portfolio">
+      <div class="interface">
+        <h2 class="titulo"><span>PROJETOS E CERTIFICADOS.</span></span></h2>
+        <div class="flex">
+          <div class="img-port"><img src="/imagens/Sem título.png" width="400px"></div>
+          <div class="img-port"><img src="/imagens/Opera Instantâneo_2024-09-02_170147_www.freecodecamp.org.png" width="400px"></div>
+          <div class="img-port"><img src="/imagens/projeto 2.png" width="300px"></div>
+        </div>
+        
+        <h2 id="especialidades" class="titulo"><span>ESPECIALIDADES:</span></span></h2>
+        <ul>
+            
+            <li>Tenho esperiência sobre HTML semântico, CSS e deixa responsivo</li>
+            <li>Estou me aprofundando em linguagens JavaScript, PHP e Python</li>
+            <li>Tenho um pouco de conhecimento sobre Banco de dados e sua manipulações de dados em WorkBench e tmbm Django</li>
+            
+            
+        </ul>, 
+
+        
+      </div><!--interface-->
+    </section><!--portfolio-->
+
+    <section class="formulario">
+      <div class="interface">
+        <h2 class="titulo">FALA<span>COMIGO.</span></h2>
+
+        <form id="contato" action="">
+          <input type="text" placeholder="Seu nome completo:" required>
+          <input type="text" placeholder="Seu email:" required>
+          <input type="text" placeholder="Seu celular:">
+          <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+        </form>
+      </div>
+    </section><!--formulario-->
+  </main>
+
+  <footer>
+    <p><a href="mailto:richardcruzsemo@gmail.com">Address: richardcruzsemo@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
